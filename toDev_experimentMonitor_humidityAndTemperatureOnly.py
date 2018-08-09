@@ -19,6 +19,10 @@ temperatureArray = []
 """humidity and temp"""
 
 
+def add(x, y):
+    return x + y
+
+
 def makeFigure():
     plt.title("Live Sensor Data")
     plt.plot(timeArray, temperatureArray, 'r-')
