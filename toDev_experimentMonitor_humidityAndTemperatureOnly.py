@@ -41,7 +41,7 @@ def writeData(fileName, dataArray):
     myFile.close()
 
 
-PATH_OUT = "/Users/spacewolf/Desktop/humidityData.txt"
+PATH_OUT = "/Users/spacewolf/Desktop/0818_11_humidity_LiCl.txt"
 DATA_FILE = open(PATH_OUT, 'w').close()
 
 
